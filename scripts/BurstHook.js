@@ -115,5 +115,5 @@ function tryGetBurstFire(upgradeType, item) {
     return;
   }
 
-  return Math.min(burstInteger, item.system.magazine.value);
+  return burstInteger;
 }
